@@ -340,7 +340,7 @@ export default {
         this.$emit('select', item)
 
         if (item) {
-          this.autocompleteText(item)
+          this.setText('');
         }
       }
 
